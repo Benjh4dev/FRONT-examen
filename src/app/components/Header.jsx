@@ -9,20 +9,11 @@ export default function Header ()  {
           </Link>
           <ul className="flex space-x-8">
             <li>
-              <Link href="/new" passHref>
-                New
+              <Link href="/bookings" passHref>
+                Bookings
               </Link>
             </li>
-            <li>
-              <Link href="/pages" passHref>
-                Contact
-              </Link>
-            </li>
-            <li>
-              <Link href="/contact" passHref>
-                About
-              </Link>
-            </li>
+    
           </ul>
         </nav>
       </header>
